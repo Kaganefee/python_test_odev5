@@ -145,7 +145,6 @@ class Test_OdevClass:
         assert len(cartitems) == 1
         
 
-
     path="data/standard_user.xlsx"
     sheet="Sheet1"
     @pytest.mark.parametrize("username,password",getData(path,sheet))
